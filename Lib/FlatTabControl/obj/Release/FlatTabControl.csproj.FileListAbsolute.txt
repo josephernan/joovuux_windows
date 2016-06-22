@@ -1,0 +1,10 @@
+E:\Freelancer_works\CurrentTASK\JoovuuC#\JooVuuX\Lib\FlatTabControl\bin\Release\FlatTabControl.dll
+E:\Freelancer_works\CurrentTASK\JoovuuC#\JooVuuX\Lib\FlatTabControl\obj\Release\FlatTabControl.csprojResolveAssemblyReference.cache
+E:\Freelancer_works\CurrentTASK\JoovuuC#\JooVuuX\Lib\FlatTabControl\obj\Release\FlatTabControl.FlatTabControl.resources
+E:\Freelancer_works\CurrentTASK\JoovuuC#\JooVuuX\Lib\FlatTabControl\obj\Release\FlatTabControl.csproj.GenerateResource.Cache
+E:\Freelancer_works\CurrentTASK\JoovuuC#\JooVuuX\Lib\FlatTabControl\obj\Release\FlatTabControl.dll
+E:\Freelancer_works\CurrentTASK\JoovuuC#\Src\JooVuuX\Lib\FlatTabControl\bin\Release\FlatTabControl.dll
+E:\Freelancer_works\CurrentTASK\JoovuuC#\Src\JooVuuX\Lib\FlatTabControl\obj\Release\FlatTabControl.csprojResolveAssemblyReference.cache
+E:\Freelancer_works\CurrentTASK\JoovuuC#\Src\JooVuuX\Lib\FlatTabControl\obj\Release\FlatTabControl.FlatTabControl.resources
+E:\Freelancer_works\CurrentTASK\JoovuuC#\Src\JooVuuX\Lib\FlatTabControl\obj\Release\FlatTabControl.csproj.GenerateResource.Cache
+E:\Freelancer_works\CurrentTASK\JoovuuC#\Src\JooVuuX\Lib\FlatTabControl\obj\Release\FlatTabControl.dll

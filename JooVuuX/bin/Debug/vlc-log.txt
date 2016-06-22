@@ -1,0 +1,311 @@
+﻿-- logger module started --
+main debug: VLC media player - 2.1.5 Rincewind
+main debug: Copyright © 1996-2014 the VideoLAN team
+main debug: revision 2.1.5-9-gb3fd0af
+main debug: configured with ../extras/package/win32/../../../configure  '--enable-update-check' '--enable-lua' '--enable-faad' '--enable-flac' '--enable-theora' '--enable-twolame' '--enable-quicktime' '--enable-avcodec' '--enable-merge-ffmpeg' '--enable-dca' '--enable-mpc' '--enable-libass' '--enable-x264' '--enable-schroedinger' '--enable-realrtsp' '--enable-live555' '--enable-dvdread' '--enable-shout' '--enable-goom' '--enable-caca' '--disable-sdl' '--enable-qt' '--enable-skins2' '--enable-sse' '--enable-mmx' '--enable-libcddb' '--enable-zvbi' '--disable-telx' '--enable-nls' '--disable-dirac' '--host=i686-w64-mingw32' 'host_alias=i686-w64-mingw32'
+main debug: using interface module "logger"
+main debug: removing all interfaces
+main debug: exiting
+main debug: no exit handler
+main debug: removing module "logger"
+-- logger module stopped --
+﻿-- logger module started --
+main debug: VLC media player - 2.1.5 Rincewind
+main debug: Copyright © 1996-2014 the VideoLAN team
+main debug: revision 2.1.5-9-gb3fd0af
+main debug: configured with ../extras/package/win32/../../../configure  '--enable-update-check' '--enable-lua' '--enable-faad' '--enable-flac' '--enable-theora' '--enable-twolame' '--enable-quicktime' '--enable-avcodec' '--enable-merge-ffmpeg' '--enable-dca' '--enable-mpc' '--enable-libass' '--enable-x264' '--enable-schroedinger' '--enable-realrtsp' '--enable-live555' '--enable-dvdread' '--enable-shout' '--enable-goom' '--enable-caca' '--disable-sdl' '--enable-qt' '--enable-skins2' '--enable-sse' '--enable-mmx' '--enable-libcddb' '--enable-zvbi' '--disable-telx' '--enable-nls' '--disable-dirac' '--host=i686-w64-mingw32' 'host_alias=i686-w64-mingw32'
+main debug: using interface module "logger"
+main debug: Creating an input for 'rtsp://192.168.42.1/live'
+main debug: using timeshift granularity of 50 MiB, in path 'C:\Users\Henry\AppData\Local\Temp'
+main debug: `rtsp://192.168.42.1/live' gives access `rtsp' demux `' path `192.168.42.1/live'
+main debug: creating demux: access='rtsp' demux='' location='192.168.42.1/live' file='\\192.168.42.1\live'
+main debug: looking for access_demux module matching "rtsp": 12 candidates
+live555 debug: version 2014.05.27
+live555 debug: RTP subsession 'video/H264'
+main debug: selecting program id=0
+live555 debug: setup start: 0.000000 stop:0.000000
+live555 debug: We have a timeout of 60 seconds
+live555 debug: spawned timeout thread
+live555 debug: play start: 0.000000 stop:0.000000
+main debug: using access_demux module "live555"
+main debug: looking for decoder module matching "any": 39 candidates
+avcodec debug: trying to use direct rendering
+avcodec debug: allowing 4 thread(s) for decoding
+avcodec debug: avcodec codec (H264 - MPEG-4 AVC (part 10)) started
+avcodec debug: using frame thread mode with 4 threads
+main debug: using decoder module "avcodec"
+main debug: looking for packetizer module matching "any": 21 candidates
+packetizer_h264 debug: found NAL_SPS (sps_id=0)
+packetizer_h264 debug: found NAL_PPS (pps_id=0 sps_id=0)
+main debug: using packetizer module "packetizer_h264"
+main debug: looking for meta reader module matching "any": 2 candidates
+lua debug: Trying Lua scripts in C:\Users\Henry\AppData\Roaming\vlc\lua\meta\reader
+lua debug: Trying Lua scripts in E:\Freelancer_works\CurrentTASK\JoovuuC#\Src\JooVuuX\JooVuuX\bin\Debug\VLC Dlls\lua\meta\reader
+main debug: no meta reader modules matched
+main debug: `rtsp://192.168.42.1/live' successfully opened
+main debug: Buffering 0%
+main debug: Buffering 0%
+main debug: Buffering 0%
+main debug: Buffering 0%
+main debug: Buffering 0%
+mainp acdebugk:etizer_h26 4 debugB: uffSeen erSing E0I r%e
+covery point, 0 recovery mfarianme sd
+ebug: Buffering 10%
+mpaaincke dteizerb_uhg:264  Bdeubffuger:in gRec ov1er0y% 
+from SEI recovery pomiainn dtebug complete:
+ Buffering 20%
+main debug: Buffering 20%
+main debug: Buffering 30%
+main debug: Buffering 30%
+main debug: Buffering 40%
+main debug: Buffering 40%
+main debug: looking for text renderer module matching "any": 2 candidates
+freetype debug: Using Arial as font from file C:\Windows\Fonts\arial.ttf
+freetype debug: using fontsize: 2
+main debug: using text renderer module "freetype"
+main debug: looking for video filter2 module matching "any": 55 candidates
+main debug: Buffering 50%
+main debug: Buffering 50%
+swscale debug: 32x32 chroma: YUVA -> 16x16 chroma: RGBA with scaling using Bicubic (good quality)
+main debug: using video filter2 module "swscale"
+main debug: looking for video filter2 module matching "any": 55 candidates
+yuvp debug: YUVP to YUVA converter
+main debug: using video filter2 module "yuvp"
+main debug: Deinterlacing available
+main debug: deinterlace 0, mode blend, is_needed 0
+main debug: Opening vout display wrapper
+main debug: looking for vout display module matching "any": 10 candidates
+direct3d error: Could not read adapter capabilities. (hr=0x8876086A)
+direct3d error: Direct3D could not be initialized
+directdraw debug: creating Vout EventThread
+directdraw debug: DirectXCreateWindow
+main debug: looking for vout window hwnd module matching "embed-hwnd,any": 3 candidates
+main debug: using vout window hwnd module "drawable"
+directdraw debug: created video sub-window
+directdraw debug: Vout EventThread running
+directdraw debug: disabling screen saver
+directdraw debug: directx-device: 
+directdraw debug: screen dimensions (0x0,1680x1050)
+directdraw debug: DirectDraw Capabilities: overlay=0 yuvoverlay=0 can_deinterlace_overlay=0 colorkey=0 stretch=0 bltfourcc=0
+main debug: VoutDisplayEvent 'resize' 448x278 window
+directdraw debug: RGB plain surface created successfully
+main debug: using vout display module "directdraw"
+main debug: A filter to adapt decoder to display is needed
+main debug: looking for video filter2 module matching "any": 55 candidates
+swscale debug: 432x240 chroma: J420 -> 432x240 chroma: RV32 with scaling using Bicubic (good quality)
+main debug: using video filter2 module "swscale"
+main debug: Filter 'Swscale' (04e49e7c) appended to chain
+main debug: original format sz 432x240, of (0,0), vsz 432x240, 4cc J420, sar 1:1, msk r0x0 g0x0 b0x0
+main debug: removing module "freetype"
+main debug: looking for text renderer module matching "any": 2 candidates
+mfareetyipne  ddebugebug::  UsiVng oAutrDiiaslp layaEvs font freontm f 'resizile e' C529:x\436W iwinndowd
+ows\Fonts\arial.ttf
+freetype debug: using fontsize: 2
+main debug: using text renderer module "freetype"
+avcodec debug: using direct rendering
+main error: Failed to set on top
+main error: Failed to resize display
+main debug: End of video preroll
+main debug: Received first picture
+main debug: Buffering 60%
+main debug: Buffering 60%
+main debug: Buffering 70%
+main debug: Buffering 70%
+main debug: Buffering 80%
+main debug: Buffering 80%
+main debug: Buffering 80%
+main debug: Buffering 80%
+main debug: Buffering 80%
+main debug: Buffering 80%
+main debug: Buffering 90%
+main debug: Buffering 90%
+main debug: Stream buffering done (1001 ms in 567 ms)
+main debug: Decoder buffering done in 0 ms
+main debug: picture might be displayed late (missing 0 ms)
+main debug: auto hiding mouse cursor
+main debug: auto hiding mouse cursor
+main debug: auto hiding mouse cursor
+main warning: picture is too late to be displayed (missing 53 ms)
+main warning: picture is too late to be displayed (missing 124 ms)
+main warning: picture is too late to be displayed (missing 25 ms)
+main warning: picture is too late to be displayed (missing 28 ms)
+main warning: picture is too late to be displayed (missing 59 ms)
+main warning: picture is too late to be displayed (missing 174 ms)
+main warning: picture is too late to be displayed (missing 75 ms)
+main warning: picture is too late to be displayed (missing 164 ms)
+main warning: picture is too late to be displayed (missing 63 ms)
+main debug: picture might be displayed late (missing 15 ms)
+main debug: auto hiding mouse cursor
+main warning: picture is too late to be displayed (missing 106 ms)
+main debug: picture might be displayed late (missing 7 ms)
+main debug: auto hiding mouse cursor
+main debug: auto hiding mouse cursor
+main debug: auto hiding mouse cursor
+main warning: picture is too late to be displayed (missing 149 ms)
+main warning: picture is too late to be displayed (missing 50 ms)
+main warning: picture is too late to be displayed (missing 72 ms)
+directdraw debug: WinProc WM_DESTROY
+directdraw debug: DirectXEventThread terminating
+directdraw debug: DirectXCloseWindow
+directdraw debug: WinProc WM_DESTROY
+directdraw warning: could not blit surface (error -2147467259)
+main debug: VoutDisplayEvent 'resize' 88821392x174193028 window
+main warning: VoutDisplayEvent 'pictures invalid'
+main debug: VoutDisplayEvent 'resize' 89816092x90029396 window
+directdraw debug: directx-device: 
+directdraw debug: screen dimensions (0x0,1680x1050)
+directdraw debug: DirectDraw Capabilities: overlay=0 yuvoverlay=0 can_deinterlace_overlay=0 colorkey=0 stretch=0 bltfourcc=0
+directdraw warning: cannot attach clipper to window (error -2147024809)
+main debug: VoutDisplayEvent 'resize' 0x298711736 window
+directdraw debug: RGB plain surface created successfully
+main debug: VoutDisplayEvent 'resize' 0x0 window
+main debug: Filter 04e49e7c removed from chain
+main debug: removing module "swscale"
+main debug: A filter to adapt decoder to display is needed
+main debug: looking for video filter2 module matching "any": 55 candidates
+swscale debug: 432x240 chroma: J420 -> 432x240 chroma: RV32 with scaling using Bicubic (good quality)
+main debug: using video filter2 module "swscale"
+main debug: Filter 'Swscale' (04e49e7c) appended to chain
+main debug: VoutDisplayEvent 'resize' 174740x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+directdraw warning: could not blit surface (error -2005532522)
+main debug: VoutDisplayEvent 'resize' 149627288x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+directdraw warning: could not blit surface (error -2005532522)
+main debug: VoutDisplayEvent 'resize' 149627288x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+main debug: VoutDisplayEvent 'resize' 0x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+directdraw warning: could not blit surface (error -2005532522)
+main debug: VoutDisplayEvent 'resize' 149627288x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+directdraw warning: could not blit surface (error -2005532522)
+main debug: VoutDisplayEvent 'resize' 149627288x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+main debug: VoutDisplayEvent 'resize' 0x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+directdraw warning: could not blit surface (error -2005532522)
+main debug: VoutDisplayEvent 'resize' 149627288x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+directdraw warning: could not blit surface (error -2005532522)
+main debug: VoutDisplayEvent 'resize' 149627288x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+main debug: VoutDisplayEvent 'resize' 0x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+directdraw warning: could not blit surface (error -2005532522)
+main debug: VoutDisplayEvent 'resize' 149627288x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+directdraw warning: could not blit surface (error -2005532522)
+main debug: VoutDisplayEvent 'resize' 149627288x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+main debug: VoutDisplayEvent 'resize' 0x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+directdraw warning: could not blit surface (error -2005532522)
+main debug: VoutDisplayEvent 'resize' 149627288x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+directdraw warning: could not blit surface (error -2005532522)
+main debug: VoutDisplayEvent 'resize' 149627288x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+main debug: VoutDisplayEvent 'resize' 0x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+directdraw warning: could not blit surface (error -2005532522)
+main debug: VoutDisplayEvent 'resize' 149627288x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+directdraw warning: could not blit surface (error -2005532522)
+main debug: VoutDisplayEvent 'resize' 149627288x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+main debug: VoutDisplayEvent 'resize' 0x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+directdraw warning: could not blit surface (error -2005532522)
+main debug: VoutDisplayEvent 'resize' 149627288x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+directdraw warning: could not blit surface (error -2005532522)
+main debug: VoutDisplayEvent 'resize' 149627288x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+main debug: VoutDisplayEvent 'resize' 0x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+directdraw warning: could not blit surface (error -2005532522)
+main debug: VoutDisplayEvent 'resize' 149627288x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+main debug: VoutDisplayEvent 'resize' 0x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+directdraw warning: could not blit surface (error -2005532522)
+main debug: VoutDisplayEvent 'resize' 149627288x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+directdraw warning: could not blit surface (error -2005532522)
+main debug: VoutDisplayEvent 'resize' 149627288x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+main debug: VoutDisplayEvent 'resize' 0x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+directdraw warning: could not blit surface (error -2005532522)
+main debug: VoutDisplayEvent 'resize' 149627288x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+directdraw warning: could not blit surface (error -2005532522)
+main debug: VoutDisplayEvent 'resize' 149627288x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+main debug: VoutDisplayEvent 'resize' 0x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+directdraw warning: could not blit surface (error -2005532522)
+main debug: VoutDisplayEvent 'resize' 149627288x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+main debug: VoutDisplayEvent 'resize' 0x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+directdraw warning: could not blit surface (error -2005532522)
+main debug: VoutDisplayEvent 'resize' 149627288x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+directdraw warning: could not blit surface (error -2005532522)
+main debug: VoutDisplayEvent 'resize' 149627288x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+main debug: VoutDisplayEvent 'resize' 0x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+directdraw warning: could not blit surface (error -2005532522)
+main debug: VoutDisplayEvent 'resize' 149627288x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+directdraw warning: could not blit surface (error -2005532522)
+main debug: VoutDisplayEvent 'resize' 149627288x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+main debug: VoutDisplayEvent 'resize' 0x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+directdraw warning: could not blit surface (error -2005532522)
+main debug: VoutDisplayEvent 'resize' 149627288x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+directdraw warning: could not blit surface (error -2005532522)
+main debug: VoutDisplayEvent 'resize' 149627288x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+main debug: VoutDisplayEvent 'resize' 0x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+directdraw warning: could not blit surface (error -2005532522)
+main debug: VoutDisplayEvent 'resize' 149627288x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+directdraw warning: could not blit surface (error -2005532522)
+main debug: VoutDisplayEvent 'resize' 149627288x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+main debug: VoutDisplayEvent 'resize' 0x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+directdraw warning: could not blit surface (error -2005532522)
+main debug: VoutDisplayEvent 'resize' 149627288x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+directdraw warning: could not blit surface (error -2005532522)
+main debug: VoutDisplayEvent 'resize' 149627288x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+main debug: VoutDisplayEvent 'resize' 0x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+directdraw warning: could not blit surface (error -2005532522)
+main debug: VoutDisplayEvent 'resize' 149627288x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+directdraw warning: could not blit surface (error -2005532522)
+main debug: VoutDisplayEvent 'resize' 149627288x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+main debug: VoutDisplayEvent 'resize' 0x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+directdraw warning: could not blit surface (error -2005532522)
+main debug: VoutDisplayEvent 'resize' 149627288x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+directdraw warning: could not blit surface (error -2005532522)
+main debug: VoutDisplayEvent 'resize' 149627288x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+main debug: VoutDisplayEvent 'resize' 0x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
+directdraw warning: could not blit surface (error -2005532522)
+main debug: VoutDisplayEvent 'resize' 149627288x174193028 window
+main debug: VoutDisplayEvent 'resize' 1780049596x91512884 window
